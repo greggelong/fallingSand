@@ -15,6 +15,8 @@ use the drag and press the mouse while holding
 
 - 'w' to drop water
 
+- 'r' to place rock (even in the sky )
+
 - 'x' to destroy
 
 
