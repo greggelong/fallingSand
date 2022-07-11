@@ -61,3 +61,9 @@ otherwise you will be overwriting all of the other elements
 
 
 [falling sand p5 with life live](https://greggelong.github.io/fallingSand/fallingSandP5Life)
+
+
+
+since water and empty space create life // not just water alone
+
+you can make a one pixel wide pipe with rock and transfer water through it without the water making life
