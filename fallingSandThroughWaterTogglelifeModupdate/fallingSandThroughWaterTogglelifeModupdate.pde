@@ -101,7 +101,7 @@ void mouseDragged() {
 
   mpx = ((mpx+cols)%cols); // makes it on a torus
 
-  mpy =((mpy+rows-1)%rows-1);
+  mpy =((mpy+rows)%rows);
    
   grid[int(mpy)][int(mpx)] = myelement;
  // grid[int(mpy)+1][int(mpx)] = myelement; // with life we must drop more elements
