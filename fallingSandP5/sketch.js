@@ -108,7 +108,13 @@ function updateGrid(){
       }
     }
   }
-  grid = nextGrid.map(inner => inner.slice())
+  ///grid = nextGrid.map(inner => inner.slice()) 
+  // using for loop instead of map
+  for (let j =0;j<rows;j++){
+    for (let i =0; i<cols;i++){
+      grid[j][i]= nextGrid[j][i]
+    }
+  }
 }
 
 
