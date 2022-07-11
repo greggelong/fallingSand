@@ -35,3 +35,26 @@ sand in air makes pyramids becaues it checks down left and right
 ## p5 version is a bit slow but you can play on line
 
 [falling sand p5 live](https://greggelong.github.io/fallingSand/fallingSandP5)
+
+
+## falling sand with life.  
+
+had to solve some logic problems.  
+
+needed to be more specific about life cases
+
+life needs to check empty spaces as well as full ones so you must have a case not to overwrite by checking if another element has placed something in the nextGrid
+
+also made the possibility of updateing life only every 2,3,4, frames using modulo
+
+
+to modulate the update rate of life elements, it must be done in the life case function
+
+
+and if it is not mod(2) or more you need to not do the rules
+
+
+but fill the next state with either the grid value or the nextgrid value if it is not 0
+
+
+otherwise you will be overwriting all of the other elements
