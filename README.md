@@ -1,4 +1,7 @@
 # fallingSand
+
+![waterPipe.png](waterPipe.png)
+
 a place to play with falling sand simulations in processing, p5 and python
 
 I am using some ideas and logic from this great blog.
