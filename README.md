@@ -60,4 +60,4 @@ but fill the next state with either the grid value or the nextgrid value if it i
 otherwise you will be overwriting all of the other elements
 
 
-[falling sand p5 with life live](https://greggelong.github.io/fallingSand/fallingSandP5life)
+[falling sand p5 with life live](https://greggelong.github.io/fallingSand/fallingSandP5Life)
