@@ -60,9 +60,10 @@ function mouseDragged() {
   let mpx = map(mouseX, 0, width, 0, cols-1);
   let mpy = map(mouseY, 0, height, 0, rows-1);
 
-  mpx = ((mpx+cols-1)%cols-1); // makes it on a torus
+  mpx = ((mpx+cols)%cols); // makes it on a torus
 
-  mpy =((mpy+rows-1)%rows-1);
+  mpy =((mpy+rows)%rows);
+  
   if (sel.value() === 'water') {
       grid[int(mpy)][int(mpx)] = 3;
     } else if (sel.value() === 'sand') {
