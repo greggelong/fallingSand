@@ -37,7 +37,7 @@ sand in air makes pyramids becaues it checks down left and right
 
 ## p5 version is a bit slow but you can play on line
 
-[falling sand p5 live](https://greggelong.github.io/fallingSand/fallingSandP5)
+### [falling Sand With Conway's Game of Life-- play online](https://greggelong.github.io/fallingSand/fallingSandP5)
 
 
 ## falling sand with life.  
