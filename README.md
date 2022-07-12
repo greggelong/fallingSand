@@ -1,7 +1,9 @@
 # fallingSand
 
+### [falling Sand With Conway's Game of Life-- play online](https://greggelong.github.io/fallingSand/fallingSandP5Life)
 
-[falling sand p5 with life live](https://greggelong.github.io/fallingSand/fallingSandP5Life)
+
+
 
 
 ![waterPipe.png](waterPipe.png)
@@ -9,6 +11,8 @@
 After seeing more than a few videos about falling sand simulations, I made a version in processing and p5js. Using two 2d arrays one for current and one for update.  After finding the logic that would let sand fall through water, I gave implementing Conway's game of life at the same time.  Had fun solving more logic problems that had one case of life over writing the update array.  In the arrays 0 is empty, 1 is live cell, 2 is sand cell, 3 is water cell and 4 is rock cell.  A happy coincidence is that a cell of water with enough empty space creates life.  It makes Game of life much more interactive, as you can blast gliders with sand. I will try and make a space shooter with gliders and 'sand' based on this principle.
 
 a place to play with falling sand simulations in processing, p5 and python
+
+[falling sand p5 no life](https://greggelong.github.io/fallingSand/fallingSandP5)
 
 I am using some ideas and logic from this great blog.
 
